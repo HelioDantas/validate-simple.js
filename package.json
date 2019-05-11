@@ -1,0 +1,21 @@
+{
+  "name": "validate",
+  "version": "0.0.1",
+  "description": "validate torna a validação de string mais fácil, rápida e intuitiva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/HelioDantas/validate",
+  "author": {
+    "name": "Helio Dantas",
+    "email": "helio.dantas@outlook.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
