@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/HelioDantas/validate.js",
+  "homepage": "https://github.com/HelioDantas/validate-simple.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HelioDantas/validate.js"
+    "url": "https://github.com/HelioDantas/validate-simple.js"
   },
   "author": {
     "name": "Helio Dantas",
