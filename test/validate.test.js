@@ -10,7 +10,6 @@ describe('Teste!', function () {
             'to': ['required', 'isEmail', 'isEmpty'],
             'body': ['required', 'isEmpty'],
         });
-        console.log(result);
         deepEqual(result, expected);
     })
 
