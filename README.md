@@ -9,11 +9,9 @@ A library para validators.
 
 ## Installation and Usage
 
-### Server-side usage
 
-Install the library with `nnpm i validate-simple`
 
-#### No ES6
+Install the library with `npm i validate-simple`
 
 ```javascript
 var Validate = require('validate');
@@ -39,7 +37,7 @@ var Validate = require('validate');
 
 
 
-### Client-side usage
+### Operators
 
 
 
@@ -49,7 +47,8 @@ Validator                               | Description
 **isBoolean**                           | check if a string is a boolean.
 **isEmail**                             | check if the string is an email.
 **isEmpty**                             | check if the string has a length of zero
-**isInt**                               | check if the string is an integer.
+**isDecimal**                           | check if the string is an decimal.
+**isFloat**                             | check if the string is an isFloat.
 **isJSON**                              | check if the string is valid JSON (note: uses JSON.parse).
 **isJWT**                               | check if the string is valid JWT token.
 **isLowercase**                         | check if the string is lowercase.
@@ -93,6 +92,6 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [downloads-image]: http://img.shields.io/npm/dm/validate-simple.svg
 [npm-url]: https://www.npmjs.com/package/validate-simple
 [npm-image]: https://img.shields.io/npm/v/validate-simple.svg
-
+    
 [mongoid]: http://docs.mongodb.org/manual/reference/object-id/
 [ISIN]: https://en.wikipedia.org/wiki/International_Securities_Identification_Number
