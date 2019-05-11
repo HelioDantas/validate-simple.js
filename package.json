@@ -1,5 +1,5 @@
 {
-  "name": "validate",
+  "name": "validate-simple",
   "version": "0.0.1",
   "description": "validate torna a validação de string mais fácil, rápida e intuitiva",
   "main": "index.js",
