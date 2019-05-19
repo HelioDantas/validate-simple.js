@@ -14,7 +14,7 @@ A library para validators.
 Install the library with `npm i validate-simple`
 
 ```javascript
-var Validate = require('validate');
+var Validate = require('validate-simple');
         
 
 
@@ -34,7 +34,29 @@ var Validate = require('validate');
    */
 ```
 
+Or you can choose your messages
+```javascript
+var Validate = require('validate-simple');
+        
 
+
+   async function validate() {
+       const valid = new Validate({to:'helio', body:''});
+        return await valid.validate({
+            'to': ['required', 'isEmail', 'isEmpty'],
+            'body': ['required', 'isEmpty'],
+            'subject': ['required', 'isEmpty']
+        },{
+           'subject': {'required': 'não da mole'},
+         });
+        
+   }
+ console.log(validate());
+   
+   /* return
+    [ 'body não pode ser vazio!', 'to não e um Email!', ' 'não da mole'  ]
+   */
+```
 
 
 ### Operators
