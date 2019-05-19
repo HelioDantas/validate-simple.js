@@ -30,7 +30,7 @@ var Validate = require('validate-simple');
  console.log(validate());
    
    /* return
-    [ 'body não pode ser vazio!`', 'to não e um Email!', ' 'subject não pode ser Undefined!'  ]
+    [ 'body não pode ser vazio!', 'to não e um Email!', ' 'subject não pode ser Undefined!'  ]
    */
 ```
 
